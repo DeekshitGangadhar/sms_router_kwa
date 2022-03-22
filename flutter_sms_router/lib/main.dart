@@ -2,6 +2,7 @@
   import 'package:flutter/material.dart';
   import 'package:flutter_sms_router/pages/my_inbox.dart';
   import 'package:flutter_sms_router/pages/msg_receiver.dart';
+  import 'package:flutter_sms_router/pages/msg_receiver_beta.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MsgReceiver(),
+      home: MsgReceiverBeta(),
     );
   }
 }
